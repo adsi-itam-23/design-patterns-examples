@@ -18,4 +18,16 @@ public class MailServer implements Visitable{
 		return conexionesActivas;
 	}
 
+	public String getIp() {
+		return ip;
+	}
+
+	public void setIp(String ip) {
+		this.ip = ip;
+	}
+
+	public void setConexionesActivas(int conexionesActivas) {
+		this.conexionesActivas = conexionesActivas;
+	}
+
 }
